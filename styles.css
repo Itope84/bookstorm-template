@@ -1,0 +1,45 @@
+:root {
+  --primary: #6A75FF;
+  --accent: #3e468f;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+}
+
+.main-header {
+  background-image: url('main-bg.svg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.main-header a, .main-header a.nav-link {
+  color: #fff;
+}
+
+.main-header .dropdown-menu.show a.dropdown-item {
+  color: #6A75ff !important;
+}
+
+.main-header .navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.main-header .navbar-light .navbar-nav .nav-link:hover {
+  color: var(--accent);
+}
+
+.btn-white {
+  background-color: #fff;
+  color: var(--primary) !important;
+}
+
+.btn-rounded {
+  border-radius: 50px;
+}
+
+.header-context {
+  width: 80%;
+  max-width: 350px;
+}
